@@ -34,8 +34,8 @@
   ],
   "projects": [
     {
-      "id": "custom_school_photo_frame_ornament",
-      "name": "Custom School Photo Frame Ornament",
+      "id": "school_photo_frame_ornament",
+      "name": "School Photo Frame Ornament",
       "description": "Preserve cherished school memories with this Custom School Photo Frame Ornament, designed to highlight your child's journey through school! This set includes a laser-cut wooden frame perfectly sized to hold a 2.5\" x 3.5\" wallet-size photo, along with customizable grade tags and school name.",
       "category": "ornaments",
       "tags": ["frames", "personalized", "basswood"],
@@ -75,8 +75,8 @@
       ]
     },
     {
-      "id": "map_ornaments",
-      "name": "Map Ornaments",
+      "id": "layered_map_ornaments",
+      "name": "Layered Map Ornaments",
       "description": "Beautifully crafted layered map ornaments. I have created map ornaments for Crofton, Maryland. Happy to take requests for new cities.",
       "category": "ornaments",
       "tags": ["maps", "baltic-birch", "personalized"],
