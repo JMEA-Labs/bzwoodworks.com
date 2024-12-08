@@ -10,7 +10,7 @@
   },
   "showFooter": true,
   "filters": true,
-  "root": "/",
+  "root": "",
   "colors": {
     "primary": "#DD6E42",
     "text-light": "#FFFFFF",
