@@ -1,0 +1,92 @@
+.project-preview {
+  position: relative;
+  border: 0.4rem solid var(--color-background-dark);
+  border-radius: 1rem;
+  overflow: hidden;
+  background-color: #000;
+  text-align: center;
+  aspect-ratio: 1;
+
+  @supports not (aspect-ratio: 1 / 1) {
+    > * {
+      height: var(--project-min-width);
+    }
+  }
+
+  &:hover,
+  &:active,
+  &:focus {
+    border-color: var(--color-primary);
+
+    .project-preview {
+      &__middle {
+        flex: 1;
+        opacity: 1;
+      }
+
+      &__bottom {
+        background-color: rgba(0, 0, 0, 0.75);
+      }
+    }
+  }
+
+  &__icon {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &__details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: var(--color-text-light);
+  }
+
+  &__top,
+  &__middle,
+  &__bottom {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__top {
+    display: initial;
+    padding: 0.3rem;
+  }
+
+  &__middle {
+    padding: 0 1rem;
+    opacity: 0;
+  }
+
+  &__bottom {
+    padding-top: 0.4rem;
+    justify-content: flex-start;
+  }
+
+  &__name,
+  &__description {
+    display: inline;
+    inline-size: 100%;
+  }
+
+  &__name {
+    font-size: 1.8rem;
+    white-space: nowrap;
+  }
+
+  &__description {
+    font-size: 1.4rem;
+    word-break: normal;
+  }
+}

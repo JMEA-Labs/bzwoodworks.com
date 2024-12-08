@@ -1,0 +1,17 @@
+<div class='area-title'>
+  <h1 class='area-title__title' role='text'>
+    {{ portfolioName }}
+
+    {% if portfolioImage %}
+      <img class='area-title__image' src={{ portfolioImage | img }} />
+    {% endif %}
+    
+    {% if portfolioTagline %}
+      <span class='area-title__subtitle'>{{ portfolioTagline }}</span>
+    {% endif %}
+  </h1>
+
+  {% if portfolioDescription %}
+    <p class='area-title__description'>{{ portfolioDescription }}</p>
+  {% endif %}
+</div>

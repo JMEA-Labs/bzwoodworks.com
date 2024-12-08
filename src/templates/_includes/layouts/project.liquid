@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html lang='{{ lang }}'>
+
+{% include components/head, title: project.name %}
+
+<body>
+  <main class='page-project'>
+    {% include components/back-button %}
+
+    {% include components/language-selector, selected: lang %}
+
+    {% include components/area-title-project %}
+
+    {% include components/project-content %}
+  </main>
+
+  {% include components/footer %}
+
+  {% include scripts/fullscreen-image-gallery %}
+</body>
+
+</html>

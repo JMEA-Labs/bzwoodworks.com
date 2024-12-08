@@ -1,0 +1,22 @@
+{
+  "en-US": {
+    "categories": "Categories",
+    "tags": "Tags",
+    "links": "Links",
+    "images": "Images",
+    "videos": "Videos",
+    "filter": "Filter",
+    "no-filter": "No filter",
+    "active-filter": "Active filter",
+    "external-link": "opens an external link in a new window",
+    "go-to-home": "Go to home",
+    "made-with": "Portfolio made with",
+    "built-with": "Built with",
+    "back-to-top": "Back to top",
+    "arrow-icon": "Arrow icon",
+    "icon": "icon",
+    "and": "and",
+    "love": "Love",
+    "by": "by"
+  }
+}

@@ -1,0 +1,26 @@
+<a href='{{ '/projects' | relative: lang }}/{{ project.id }}' class='project-preview'>
+  <img
+    src='{{ project.icon.src | img }}'
+    alt='{{ project.name }} {{ 'icon' | translate: lang }}'
+    width='{{ project.icon.width | default: '' }}'
+    height='{{ project.icon.height | default: '' }}'
+    class='project-preview__icon'>
+
+  <figcaption class='project-preview__details'>
+    <div class='project-preview__top'>
+      <h2 class='project-preview__name'>{{ project.name | capitalize }}</h2>
+    </div>
+
+    <div class='project-preview__middle'>
+      <p class='project-preview__description'>{{ project.description }}</p>
+    </div>
+
+    {% if portfolio.filters %}
+      {% if project.category or project.tags %}
+        <div class='project-preview__bottom'>
+          {% include components/project-category-and-tags %}
+        </div>
+      {% endif %}
+    {% endif %}
+  </figcaption>
+</a>

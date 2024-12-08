@@ -1,0 +1,45 @@
+:root {
+  font-size: 60%;
+  
+  --desktop-horizontal-content-padding: 10%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  position: relative;
+  scroll-behavior: smooth;
+  background-color: var(--color-background-dark);
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text-dark);
+  font-size: 1.6rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main {
+  background-color: var(--color-background-light);
+	min-height: 100vh;
+	padding-bottom: 16rem;
+}
+
+a {
+  color: inherit;
+}
+
+hr {
+  width: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.social {
+  max-height:48px;
+  margin:16px;
+}
