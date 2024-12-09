@@ -23,6 +23,10 @@
     padding: 1.6rem var(--desktop-horizontal-content-padding) 0.8rem var(--desktop-horizontal-content-padding);
   }
 
+  a {
+    text-decoration: none;
+  }
+
   p > a {
     border: 0.25rem solid transparent;
     border-radius: 0.6rem;
